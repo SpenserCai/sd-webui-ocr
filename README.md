@@ -1,1 +1,5 @@
-PaddleOCR的sd-webui扩展实现
+# SD-WEBUI-OCR
+PaddleOCR's sd-webui extensions (pytorch implementation)
+
+![Demo](https://raw.githubusercontent.com/SpenserCai/sd-webui-ocr/doc/images/demo.png)
+
