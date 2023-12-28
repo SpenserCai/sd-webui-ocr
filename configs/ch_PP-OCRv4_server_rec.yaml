@@ -1,0 +1,17 @@
+PostProcess:
+  name: CTCLabelDecode
+  character_dict_path: extensions/sd-webui-ocr/torchocr/utils/ppocr_keys_v1.txt
+  use_space_char: true
+Transforms:
+- DecodeImage:
+    img_mode: BGR
+    channel_first: false
+- RecResizeImg:
+    image_shape:
+    - 3
+    - 48
+    - 320
+    infer_mode: true
+- KeepKeys:
+    keep_keys:
+    - image
