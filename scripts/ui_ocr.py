@@ -1,6 +1,5 @@
 # ui
 from modules import script_callbacks, paths_internal
-from scripts.deoldify_base import *
 import gradio as gr
 import tempfile
 import os
